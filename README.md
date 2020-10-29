@@ -1,3 +1,5 @@
+# SSB's Magic Reader Development Branch
+
 # Guya.moe
 Generalized manga reading framework. Adapted for Kaguya-sama manga, but can be used generically for any and all manga.
 
