@@ -1,18 +1,32 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Read the Kaguya-sama manga series | Guya.moe</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>{% extends "layout.html" %}
 {% load static %}
 {% block head %}
-	<title>Read the Kaguya-sama manga series | Guya.moe</title>
-	<meta name="twitter:description" content="Read the Kaguya-sama: Love is War / Kaguya Wants to Be Confessed To manga and spin-off series. No ads. No bad reader. All guya." />
-	<meta property="og:description" content="Read the Kaguya-sama: Love is War / Kaguya Wants to Be Confessed To manga and spin-off series. No ads. No bad reader. All guya." />
-	<meta name="description" content="Read the Kaguya-sama: Love is War / Kaguya Wants to Be Confessed To manga and spin-off series. No ads. No bad reader. All guya.">
-	<meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Read the Kaguya-sama manga series | Guya.moe" />
-    <meta name="twitter:image" content="https://i.imgur.com/jBhT5LV.png" />
-    <meta property="og:image" content="https://i.imgur.com/jBhT5LV.png">
+	<title>Secret Society Blanket</title>
+	<meta name="twitter:description" content="Secret Society Blanket">
+	<meta property="og:description" content="Secret Society Blanket">
+	<meta name="description" content="Secret Society Blanket">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Secret Society Blanket">
+    <meta name="twitter:image" content="https://lab.ssb.camp/index.php/s/GpanY5obbzzztod/preview">
+    <meta property="og:image" content="https://lab.ssb.camp/index.php/s/GpanY5obbzzztod/preview">
     <meta property="og:url" content="/">
 	<style>
 	* {
-		border: 0px solid red;
+		border: 0px solid black;
 	}
 
 	a:hover {
@@ -143,21 +157,18 @@
 
 {% block body %}
 <main role="main"> 
-	<div class="splash-notice">
-		<a href="mailto:k@guya.moe" style="text-decoration:underline;font-size: 0.8em;">Send us your feedback and ideas :)</a>
-	</div>
 	<div class="manga-card bigg" style="background-image: url(/static/img/bg_box_blur_smol.png);">
 		<a class="picture" href="/read/manga/Kaguya-Wants-To-Be-Confessed-To/"><picture>
 			<source type="image/webp" srcset="{{ main_cover_webp }}" class="" alt="Kaguya-sama: Love is War">
   			<img src="{{ main_cover }}" class="" alt="Kaguya-sama: Love is War">
 		</picture></a>
 		<article>
-			<a href="/read/manga/Kaguya-Wants-To-Be-Confessed-To/"><h1>Kaguya-sama: Love is War</h1></a>
-			<h2>Kaguya-sama Wants to Be Confessed To: The Geniuses' War of Love and Brains</h2>
-			<h2>Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen</h2>
+			<a href="/read/manga/Kaguya-Wants-To-Be-Confessed-To/"><h1>Our Lives After the Apocalypse</h1></a>
+			<h2>旅とごはんと終末世界</h2>
+			<h2>Tabi to Gohan to Shuumatsu Sekai</h2>
 			<div class="manga-links">
 				<span>
-					<a href="/read/manga/Kaguya-Wants-To-Be-Confessed-To/" class="manga-link full guya">Read the manga ›</a>
+					<a href="/read/manga/Kaguya-Wants-To-Be-Confessed-To/" class="manga-link full guya">Read now ></a>
 				</span>
 				<span>
 					<a id="list_exp" href="#chapter_listing_exp" onclick="
@@ -165,25 +176,24 @@
 						document.getElementById('chapter_listing_exp').classList.add('vis');
 						document.getElementsByClassName('chapter-listing-expander')[0].classList.add('vis');
 						toggleHash(event);
-					" class="manga-link after-anime">Where to start after the anime ›</a><a href="//tachiyomi.org/extensions/#Guya" class="manga-link tachiyom">Tachiyomi plugin</a>
+					" class="manga-link after-anime">See all chapters ›</a><a href="//tachiyomi.org/extensions/#Guya" class="manga-link tachiyom">Tachiyomi plugin</a>
 				</span>
 			</div>
-			<p>All’s fair when love is war!</p>
-			<p>Two geniuses. Two brains. Two hearts. One battle.</p>
-			<p>Kaguya Shinomiya and Miyuki Shirogane are the geniuses leading their prestigious academy’s student council, and inevitably they fell for each other. But they both are too prideful to be the first to confess, as that would be a loss in the competition of love! In the end, who will confess their love first?</p>
+			<p>The human era has ended. This world is one where society has already collapsed. </p>
+			<p>While people have slowly accepted the fate of their race, someone has started their journey: a girl and a dog. This tale, while a little lonely, is also filled with warmth. A slow life at the end of the world.</p>
 			<p class="yeet">I like to call this the Death Note of school romantic comedies. If Death Note ever made you laugh out loud (on purpose).</p>
 			<div class="manga-links shill">
 				<span>
 					<a rel="noreferrer nofollow" href="https://www.viz.com/read/manga/kaguya-sama-love-is-war/all" class="manga-link viz">VIZ Media</a>
 					<a rel="noreferrer nofollow" href="https://www.amazon.com/gp/bookseries/B0778N11ZV" class="manga-link ama">Amazon</a>
-					<a rel="noreferrer nofollow" href="https://play.google.com/store/books/series?id=Cv3xGgAAABD65M&hl=en_US" class="manga-link gp">Google Play</a>
+					<a rel="noreferrer nofollow" href="https://play.google.com/store/books/series?id=Cv3xGgAAABD65M&amp;hl=en_US" class="manga-link gp">Google Play</a>
 					<a rel="noreferrer nofollow" href="https://apps.qoo-app.com/en/app/6233" class="manga-link yj jp">Young Jump Weekly</a>
-					<a rel="noreferrer nofollow" href="http://books.shueisha.co.jp/search/search.html?order=1&seriesid=37405" class="manga-link shu jp">Shueisha</a>
+					<a rel="noreferrer nofollow" href="http://books.shueisha.co.jp/search/search.html?order=1&amp;seriesid=37405" class="manga-link shu jp">Shueisha</a>
 				</span>
 			</div>
 		</article>
 		<span id="chapter_listing_exp" style="padding-top: 60px; margin-top: -60px">
-			<div  class="chapter-listing-expander" onmousedown="
+			<div class="chapter-listing-expander" onmousedown="
 				event.stopImmediatePropagation();
 				document.getElementById('chapter_listing').classList.toggle('vis');
 				event.currentTarget.classList.toggle('vis');
@@ -193,13 +203,16 @@
 		<table id="chapter_listing" class="chapter-listing hidden">
 		</table>
 	</div>
+    <div>
+      <h1 class="main-section">"Other recently updated manga:"</h1>
+    </div>
 	<a href="/read/manga/We-Want-To-Talk-About-Kaguya/" class="manga-card smol" style="background-image: url({{ 4koma_cover_blur }})">
 		<picture>
 			<source type="image/webp" srcset="{{ 4koma_cover_webp }}" class="" alt="We Want to Talk About Kaguya">
   			<img src="{{ 4koma_cover }}" class="" alt="We Want to Talk About Kaguya">
 		</picture>
 		<article>
-			<h2>We Want to Talk About Kaguya <span class="tag">Spin-off</span></h2>
+			<h2>We Want to Talk About Kaguya <span class="tag">test</span></h2>
 			<p>A comedic tale of two delusional girls who have absolutely no idea what goes on in the Student Council room!</p>
 		</article>
 	</a>
@@ -232,7 +245,7 @@
 		</article>
 	</a>
 </main>
-</main>
+
 <footer class="container-fluid footer mt-auto">
 	<div class="row justify-content-between small" style="background-color:#2a2a2a;">
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 float-left">
@@ -240,8 +253,7 @@
 		<div id="quote-block" class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
 		</div>
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 float-right">
-			<img id="twintail-guya" class="img-fluid mx-auto d-block" style="height: 75px; width: 56px; float:right"
-				src="{% static 'img/img_comics-bottom.png' %}">
+			<img id="twintail-guya" class="img-fluid mx-auto d-block" style="height: 75px; width: 56px; float:right" src="{% static 'img/img_comics-bottom.png' %}">
 		</div>
 	</div>
 	<!-- <a href="#" onclick="setTimeout(function () {  localStorage.setItem('reload', '1') }, 1);">reload stop</a><a href="#" onclick="setTimeout(function () {  localStorage.setItem('reload', '0')}, 1);">| start</a> -->
@@ -557,3 +569,8 @@ window.addEventListener("load", () => {
 });
 </script>
 {% endblock %}
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
